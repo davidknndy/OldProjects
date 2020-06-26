@@ -25,7 +25,7 @@ public class DescobreMaior {
             
         else if (n2 > n1) JOptionPane.showMessageDialog(null,"O segundo número, que é " + n2 + ", é maior.");
        
-        else JOptionPane.showMessageDialog(null,"Os segundo são iguais.");
+        else JOptionPane.showMessageDialog(null,"Os números são iguais.");
     }
     
 }
