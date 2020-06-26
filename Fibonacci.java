@@ -1,7 +1,7 @@
 package fibonacci;
 import javax.swing.JOptionPane;
 /**
- * @author David Dias
+ * @author David Kennedy
  */
 public class Fibonacci {
     /**
