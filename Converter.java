@@ -1,7 +1,7 @@
 package converter;
 import javax.swing.*;
 /**
- * @author David
+ * @author David Kennedy
  */
 public class Converter {
     /**
