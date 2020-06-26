@@ -1,7 +1,7 @@
 package media;
 import javax.swing.JOptionPane;
 /**
- * @author David Dias
+ * @author David Kennedy
  */
 public class Media {
     /**
