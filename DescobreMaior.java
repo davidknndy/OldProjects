@@ -1,7 +1,7 @@
 package descobremaior;
 import javax.swing.JOptionPane;
 /**
- * @athor David Dias
+ * @athor David Kennedy
  */
 public class DescobreMaior {
     /**
