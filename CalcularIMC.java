@@ -2,7 +2,7 @@ package calcularimc;
 import javax.swing.JOptionPane;
 
 /**
- * @author David
+ * @author David Kennedy
  */
 public class CalcularIMC {
     /**
