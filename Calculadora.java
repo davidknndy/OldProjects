@@ -2,7 +2,7 @@ package calculadora;
 import javax.swing.JOptionPane;
 import javax.swing.JFrame;
 /**
- * @author David Dias
+ * @author David kennedy
  */
 public class Calculadora {
 
@@ -14,46 +14,46 @@ public class Calculadora {
      JFrame frame = new JFrame("Greeter");
 frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
      try{
-     menu = Integer.parseInt(JOptionPane.showInputDialog(null,"Faça uma escolha: " + "\n\n" + "1 - Soma" + "\n" + "2 - Subtrair" + "\n" + "3 - Multiplicar" + "\n" + "4 - Dividir" + "\n","Menu",JOptionPane.OK_CANCEL_OPTION));
+     menu = Integer.parseInt(JOptionPane.showInputDialog(null,"FaÃ§a uma escolha: " + "\n\n" + "1 - Soma" + "\n" + "2 - Subtrair" + "\n" + "3 - Multiplicar" + "\n" + "4 - Dividir" + "\n","Menu",JOptionPane.OK_CANCEL_OPTION));
      }catch(Exception e){JOptionPane.showMessageDialog(null, "Clique OK pra sair."); System.exit(0);}
      do{
      try{
          switch (menu){
          case 1:
-         v1=Float.parseFloat(JOptionPane.showInputDialog("Insira um número: "));
-         v2=Float.parseFloat(JOptionPane.showInputDialog("Insira outro número: "));
+         v1=Float.parseFloat(JOptionPane.showInputDialog("Insira um nÃºmero: "));
+         v2=Float.parseFloat(JOptionPane.showInputDialog("Insira outro nÃºmero: "));
          result=v1+v2;
-         JOptionPane.showMessageDialog(null,"A soma é: " + result,"Resultado",JOptionPane.PLAIN_MESSAGE);
+         JOptionPane.showMessageDialog(null,"A soma Ã©: " + result,"Resultado",JOptionPane.PLAIN_MESSAGE);
              break;
            case 2:
-           v1=Float.parseFloat(JOptionPane.showInputDialog("Insira um número: "));
-           v2=Float.parseFloat(JOptionPane.showInputDialog("Insira outro número: "));
+           v1=Float.parseFloat(JOptionPane.showInputDialog("Insira um nÃºmero: "));
+           v2=Float.parseFloat(JOptionPane.showInputDialog("Insira outro nÃºmero: "));
            result=v1-v2;
-           JOptionPane.showMessageDialog(null,"A subtração é: " + result,"Resultado",JOptionPane.PLAIN_MESSAGE);
+           JOptionPane.showMessageDialog(null,"A subtraÃ§Ã£o Ã©: " + result,"Resultado",JOptionPane.PLAIN_MESSAGE);
                break;
               case 3:
-              v1=Float.parseFloat(JOptionPane.showInputDialog("Insira um número: "));
-              v2=Float.parseFloat(JOptionPane.showInputDialog("Insira outro número: "));
+              v1=Float.parseFloat(JOptionPane.showInputDialog("Insira um nÃºmero: "));
+              v2=Float.parseFloat(JOptionPane.showInputDialog("Insira outro nÃºmero: "));
               result=v1*v2;
-              JOptionPane.showMessageDialog(null,"A multiplicação é: " + result,"Resultado",JOptionPane.PLAIN_MESSAGE);
+              JOptionPane.showMessageDialog(null,"A multiplicaÃ§Ã£o Ã©: " + result,"Resultado",JOptionPane.PLAIN_MESSAGE);
                   break;
                 case 4:
-                   v1=Float.parseFloat(JOptionPane.showInputDialog("Insira um número: "));
-                   v2=Float.parseFloat(JOptionPane.showInputDialog("Insira outro número: "));
+                   v1=Float.parseFloat(JOptionPane.showInputDialog("Insira um nÃºmero: "));
+                   v2=Float.parseFloat(JOptionPane.showInputDialog("Insira outro nÃºmero: "));
                 try {
                 result=v1/v2;
                 }
                 catch (ArithmeticException e) {
-                    JOptionPane.showMessageDialog(null,"Divisão por 0.");
+                    JOptionPane.showMessageDialog(null,"DivisÃ£o por 0.");
                     }
-                JOptionPane.showMessageDialog(null,"Impossível dividir por 0.");
-                JOptionPane.showMessageDialog(null,"A divisão é: " + result,"Resultado",JOptionPane.PLAIN_MESSAGE);
+                JOptionPane.showMessageDialog(null,"ImpossÃ­vel dividir por 0.");
+                JOptionPane.showMessageDialog(null,"A divisÃ£o Ã©: " + result,"Resultado",JOptionPane.PLAIN_MESSAGE);
                 break;
                 default:
-                    JOptionPane.showMessageDialog(null,"Opção invÃ¡lida.");
+                    JOptionPane.showMessageDialog(null,"OpÃ§Ã£o invÃƒÂ¡lida.");
                     break;
              }
-         menu = Integer.parseInt(JOptionPane.showInputDialog(null,"Faça uma nova escolha: " + "\n\n" + "1 - Soma" + "\n" + "2 - Subtrair" + "\n" + "3 - Multiplicar" + "\n" + "4 - Dividir" + "\n","Escolha",JOptionPane.PLAIN_MESSAGE));
+         menu = Integer.parseInt(JOptionPane.showInputDialog(null,"FaÃ§a uma nova escolha: " + "\n\n" + "1 - Soma" + "\n" + "2 - Subtrair" + "\n" + "3 - Multiplicar" + "\n" + "4 - Dividir" + "\n","Escolha",JOptionPane.PLAIN_MESSAGE));
          }
          catch (Exception e) {JOptionPane.showMessageDialog(null,"Clique OK para sair."); System.exit(0);}
       }while (true);
