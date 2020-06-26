@@ -1,7 +1,7 @@
 package numeros;
 import javax.swing.JOptionPane;
 /**
- * @author David
+ * @author David Kennedy
  */
 public class Numeros {
     /**
